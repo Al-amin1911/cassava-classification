@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+uv.lock
+pyproject.toml
+.python-version
+
+#dir
+artifacts
+data
+cassava_data_test
+results
+
+#checkpoint
+effnetb0_best.keras
+mobilenetv2_best.keras
+resnet50_best.keras
+effnetb0_weighted_best.keras
